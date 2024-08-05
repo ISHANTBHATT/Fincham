@@ -12,7 +12,7 @@ function Footer() {
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between md:gap-10 xl:gap-24">
           <div className="mb-6 md:mb-0 ">
-              <a href="https://www.finchamindia.com/" class="flex justify-center">
+              <a href="../" class="flex justify-center">
                   <img src="../finchamlogo.png" class="h-12 me-3 mt-10" alt="Logo" />
               </a>
               <p class="self-center text-sm mt-4">The Finland Chamber of Commerce in India (“FINCHAM India”) was incorporated as a Section 8 Company on February 28, 2018.</p>
