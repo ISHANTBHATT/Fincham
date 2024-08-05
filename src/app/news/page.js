@@ -24,7 +24,10 @@ function Page() {
       </div>
       <div className="p-8 md:p-20 flex flex-wrap justify-center">
         {sortedNews.map((e) => (
-          <div className="relative bg-white m-5 rounded-3xl pt-1 shadow-lg w-96 h-full border-t-2 border-t-gray-100">
+          <div
+            key={e.id}
+            className="relative bg-white m-5 rounded-3xl pt-1 shadow-lg w-96 h-full border-t-2 border-t-gray-100"
+          >
             <div
               className=" absolute w-44 h-44 sm:w-60 sm:h-60 md:w-72 md:h-64  left-10  md:-top-10 md:-left-10 overflow-hidden rounded-xl mx-4 mt-4 mb-2"
               onClick={() => handleClick(e.title, e.id)}
