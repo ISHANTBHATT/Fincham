@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { events } from "../../Components/data";
 import { CalendarDaysIcon } from "@heroicons/react/20/solid";
 import { BsFillPinAngleFill } from "react-icons/bs";
-function page() {
+function Page() {
   const [futureEvents, setFutureEvents] = useState([]);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ function page() {
       <div className="w-full h-full flex flex-wrap justify-center">
         {futureEvents && futureEvents.length > 0 ? (
           futureEvents.map((event, index) => (
-            <div className="p-10">
+            <div key={event.id} className="p-10">
               {/* <h1 className="bg-[#1a1f8b] rounded-full h-8 w-8 text-white flex items-center justify-center absolute top-12">
               {event.id}
             </h1> */}
@@ -70,4 +70,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

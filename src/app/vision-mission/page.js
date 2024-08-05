@@ -1,7 +1,7 @@
 import React from "react";
 import { TbTargetArrow } from "react-icons/tb";
 import { FaEye } from "react-icons/fa";
-function page() {
+function Page() {
   return (
     <div className="">
       <div className="flex justify-center items-center bg-gradient-to-r from-[#005C97] to-[#363795] pt-28 pb-10">
@@ -51,4 +51,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

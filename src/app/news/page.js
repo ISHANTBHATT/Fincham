@@ -4,7 +4,7 @@ import { SlLink } from "react-icons/sl";
 import { CalendarDaysIcon } from "@heroicons/react/20/solid";
 import { news } from "../Components/data";
 import { useRouter } from "next/navigation";
-function page() {
+function Page() {
   const router = useRouter();
   const truncateText = (text, maxLength) => {
     if (text.length <= maxLength) return text;
@@ -82,4 +82,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

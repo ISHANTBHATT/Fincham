@@ -1,6 +1,6 @@
 import React from "react";
 
-function page() {
+function Page() {
   return (
     <div className="py-20 md:py-40 px-10 md:px-20 flex flex-col md:flex-row  text-textcolor bg-gray-50">
       <div className="md:w-1/2 flex flex-col gap-4">
@@ -34,4 +34,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

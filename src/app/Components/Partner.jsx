@@ -11,7 +11,7 @@ function Partner() {
             <img src="./deal.svg" className='h-80 w-80' />
             {/* <FaHandshake className='h-20 w-20'/> */}
             <button type="button" className="bg-[#01306b] hover:bg-[#feb902] w-full text-white lg:w-1/5 px-4 py-3  rounded-full hover:shadow-lg transition-all ease-in-out duration-100">
-                Let's Get Started
+                Let&apos;s Get Started
             </button>
           </div>
     </div>

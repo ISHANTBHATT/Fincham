@@ -28,7 +28,7 @@
 import React, { useState } from "react";
 import BoardCard from "../Components/BoardCard";
 import { board } from "../Components/data";
-function page() {
+function Page() {
   return (
     <div className="w-full h-full">
       <div className="flex justify-center items-center bg-gradient-to-r from-[#005C97] to-[#363795] pt-28 pb-10">
@@ -49,7 +49,7 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
 
 // const DragCloseDrawerExample = () => {
 //   return (

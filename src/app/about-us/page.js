@@ -1,10 +1,8 @@
 "use client";
 import React from "react";
 import InfoContainer from "../Components/InfoContainer";
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
 
-function page() {
+function Page() {
   return (
     <div className="w-full h-full">
       <div
@@ -52,4 +50,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

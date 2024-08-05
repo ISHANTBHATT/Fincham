@@ -1,7 +1,7 @@
 import React from "react";
 import { members } from "../Components/data";
 import MemberCard from "../Components/MemberCard";
-function page() {
+function Page() {
   return (
     <div className="w-full h-full bg-[#f5f3f3]">
       <div className="flex justify-center items-center bg-gradient-to-r from-[#005C97] to-[#363795] pt-28 pb-10">
@@ -16,4 +16,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

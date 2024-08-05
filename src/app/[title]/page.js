@@ -52,7 +52,10 @@ export default function TitlePage() {
           Related News
         </p>
         {sortedNews.map((e) => (
-          <div className="text-sm border-b-4 border-textcolor p-4 flex flex-col gap-2">
+          <div
+            key={e.id}
+            className="text-sm border-b-4 border-textcolor p-4 flex flex-col gap-2"
+          >
             <img
               src={e.img}
               className="w-20 h-20 rounded-full"

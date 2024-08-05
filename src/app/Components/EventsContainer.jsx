@@ -99,7 +99,7 @@ function EventsContainer() {
   <div className='flex gap-4 h-full w-full text-[#121929]'>
     <div className='w-full h-full'>
         {sortedevents.map((event,index) => (
-            <div>
+            <div key={event.id}>
               {event.id % 2 === 0 ?        
                 (<motion.div 
                   whileInView={{ x: [-100, 0], opacity: [0, 1] }}
@@ -127,7 +127,7 @@ function EventsContainer() {
     </div>
     <div className='w-full h-full'>
     {sortedevents.map((event,index) => (
-      <div>
+      <div key={event.id}>
         {event.id % 2 === 1 ?        
           (<motion.div 
             whileInView={{ x: [100, 0], opacity: [0, 1] }}

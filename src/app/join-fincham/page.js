@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-function page() {
+function Page() {
   const categories = [
     {
       id: 1,
@@ -158,7 +158,7 @@ b) Overseas Member: An Indian corporate entity which is a subsidiary or joint ve
   );
 }
 
-export default page;
+export default Page;
 
 const Card = ({ title, desc, img }) => {
   const [isExpanded, setIsExpanded] = useState(false);
