@@ -76,7 +76,7 @@ export default function Navbar() {
       initial="hidden"
       animate="show"
       exit="hidden"
-      className={`w-full fixed z-[5] ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
+      className={`w-full fixed z-20 ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
       <nav aria-label="Global" className="mx-auto flex max-w-8xl items-center justify-between p-2 lg:px-8">
         <div className="flex lg:flex-1">
           <a href="../" className="-m-1.5 p-1.5">
