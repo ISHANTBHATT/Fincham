@@ -10,9 +10,12 @@ function Partner() {
             <h1 className='text-2xl md:text-4xl  font-bold relative before:absolute before:rounded-lg before:content before:w-72  md:before:w-[420px] before:h-1 before:-bottom-2 before:left-1/5 before:bg-gradient-to-tr from-blue-400 to-blue-600 transition-all ease-in-out duration-100 mt-10'>Partner with FINCHAM</h1>
             <img src="./deal.svg" className='h-80 w-80' />
             {/* <FaHandshake className='h-20 w-20'/> */}
+            <a href='../contact-us'>
             <button type="button" className="bg-[#01306b] hover:bg-[#feb902] w-full text-white lg:w-1/5 px-4 py-3  rounded-full hover:shadow-lg transition-all ease-in-out duration-100">
                 Let&apos;s Get Started
             </button>
+            </a>
+
           </div>
     </div>
   )

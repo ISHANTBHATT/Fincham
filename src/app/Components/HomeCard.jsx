@@ -138,21 +138,30 @@
 // export default HomeCard
 
 
-import React, { useEffect } from 'react'
+import React, {useState, useEffect } from 'react'
 import { motion,useInView,useScroll } from "framer-motion";
 import { fadeIn } from "../../../variants";
 const HomeCard = ({key,title,img,color,btn}) => {
-  useEffect(() => {
+  const [isLoading, setIsLoading] = useState(true);
 
-  },[img]);
+  useEffect(() => {
+    const imgElement = new Image();
+    imgElement.src = img;
+    imgElement.onload = () => setIsLoading(false);
+  }, [img]);
   return (
         <section
       className="h-[60vh] lg:h-screen relative flex md:justify-center"
       id="home"
     >
+      {isLoading && (
+        <div className="absolute inset-0 flex justify-center items-center z-10">
+          <div className="loader ease-linear rounded-full border-4 border-t-4 border-gray-200 h-14 w-14"></div>
+        </div>
+      )}
         <motion.img 
         // transition={{repeat:Infinity,repeatType:"loop"}}
-         variants={fadeIn("left", 0.2)}
+         variants={fadeIn("up", 0.1)}
          initial="hidden"
          animate="show"
          exit="hidden"
