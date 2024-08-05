@@ -101,7 +101,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../variants";
-const HomeContainer = ({id,title,img,color,btn}) => {
+const HomeContainer = ({key,title,img,color,btn}) => {
   return (
         <section
       className={`w-full h-screen flex flex-col md:flex-row p-4 md:p-20`}

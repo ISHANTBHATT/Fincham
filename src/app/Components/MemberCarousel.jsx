@@ -83,7 +83,7 @@ function AutoPlayMethods() {
       <Slider {...settings} className="my-10">
         {members.map((e) => (
             
-            <MemberCard id={e.id} name={e.name} img={e.img}/>
+            <MemberCard key={e.id} name={e.name} img={e.img}/>
         ))}
       </Slider>
       {/* <MemberCard /> */}

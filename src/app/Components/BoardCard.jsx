@@ -10,7 +10,7 @@ import {
 } from "framer-motion";
 import { RxCross1 } from "react-icons/rx";
 
-const BoarCard = ({id,img,name,position,desc}) => {
+const BoarCard = ({key,img,name,position,desc}) => {
   const [open, setOpen] = useState(false);
   return (
     <div className="relative h-80 w-72 rounded-xl bg-white ">

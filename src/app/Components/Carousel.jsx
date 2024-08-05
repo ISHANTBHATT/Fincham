@@ -51,7 +51,7 @@ function LazyLoad() {
             <HomeContainer id={data.id} title={data.title} img={data.img} btn={data.button} color={data.color}/>
         ))} */}
          {carouselData.map((data)=>(
-           <HomeCard id={data.id} title={data.title} img={data.img} btn={data.button} color={data.color}/>
+           <HomeCard key={data.id} title={data.title} img={data.img} btn={data.button} color={data.color}/>
        ))
 
         }

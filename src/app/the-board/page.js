@@ -37,7 +37,7 @@ function page() {
       <div className="flex flex-wrap gap-10 py-20 md:px-20 justify-center">
         {board.map((e) => (
           <BoardCard
-            id={e.id}
+            key={e.id}
             name={e.name}
             img={e.img}
             position={e.position}

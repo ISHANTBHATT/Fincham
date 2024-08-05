@@ -78,6 +78,7 @@ b) Overseas Member: An Indian corporate entity which is a subsidiary or joint ve
         <div className="flex flex-wrap py-10 gap-10 justify-center">
           {categories.map((e) => (
             <Card
+              key={e.id}
               onClick={() => setIsOpen(true)}
               img={e.img}
               title={e.title}

@@ -141,7 +141,7 @@
 import React, { useEffect } from 'react'
 import { motion,useInView,useScroll } from "framer-motion";
 import { fadeIn } from "../../../variants";
-const HomeCard = ({id,title,img,color,btn}) => {
+const HomeCard = ({key,title,img,color,btn}) => {
   useEffect(() => {
 
   },[img]);

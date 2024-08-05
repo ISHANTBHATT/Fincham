@@ -9,7 +9,7 @@ function page() {
       </div>
       <div className="flex flex-wrap justify-center gap-10 p-14">
         {members.map((e) => (
-          <MemberCard id={e.id} name={e.name} img={e.img} />
+          <MemberCard key={e.id} name={e.name} img={e.img} />
         ))}
       </div>
     </div>

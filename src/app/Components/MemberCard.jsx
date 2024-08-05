@@ -21,7 +21,7 @@
 
 import React from "react";
 
-function MemberCard({id,img,name}) {
+function MemberCard({key,img,name}) {
 	return (
 
 			<div 
