@@ -81,7 +81,7 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <a href="../" className="-m-1.5 p-1.5">
             {/* <span className="sr-only">Your Company</span> */}
-            <img alt="" src="../FINCHAM-LOGO.png" className="h-8 md:h-16 w-auto" />
+            <img alt="" src="../finchamlogo.png" className="h-8 md:h-16 w-auto" />
           </a>
         </div>
         <div className="flex lg:hidden">
