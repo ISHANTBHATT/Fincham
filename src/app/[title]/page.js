@@ -75,3 +75,29 @@ export default function TitlePage() {
     </div>
   );
 }
+
+// export { generateStaticParams } from "./TitlePageServer";
+// export { default } from "./TitlePageServer";
+// import { news } from "../Components/data";
+// import TitlePageClient from "./TitlePageClient";
+
+// export async function generateStaticParams() {
+//   return news.map((item) => ({
+//     title: item.title.replace(/\s+/g, "-").toLowerCase(),
+//   }));
+// }
+
+// export default function TitlePage({ params }) {
+//   const title = params.title;
+//   const item = news.find(
+//     (e) => e.title.replace(/\s+/g, "-").toLowerCase() === title
+//   );
+//   console.log("title-->", title);
+
+//   const sortedNews = news
+//     .filter((e) => e.id !== item?.id)
+//     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+//     .slice(0, 3);
+
+//   return <TitlePageClient item={item} sortedNews={sortedNews} />;
+// }

@@ -1,12 +1,9 @@
 import React from "react";
 import { EnvelopeIcon } from "@heroicons/react/20/solid";
 import { FaMapMarkedAlt } from "react-icons/fa";
-function page() {
+function Page() {
   return (
     <div className="w-full h-full flex flex-col text-textcolor ">
-      {/* <div className="flex justify-center items-center bg-gradient-to-r from-[#FF4E50] to-[#F9D423] p-10">
-        <h1 className="text-5xl text-white font-bold">Contact Us</h1>
-      </div> */}
       <div className="flex justify-center items-center bg-gradient-to-r from-[#005C97] to-[#363795] pt-28 pb-10">
         <h1 className="text-5xl text-white font-bold">Contact Us</h1>
       </div>
@@ -35,16 +32,19 @@ function page() {
 
               <li className="flex-col mr-20 flex">
                 <p className="font-bold text-black text-xl">Mail Us</p>
-                <a href="#" class="hover:underline">
+                <a href="mailto:info@finchamindia.com" class="hover:underline">
                   info@finchamindia.com
                 </a>
-                <a href="#" class="hover:underline">
+                <a
+                  href="mailto:swati.grover@finchamindia.com"
+                  class="hover:underline"
+                >
                   swati.grover@finchamindia.com
                 </a>
               </li>
             </div>
           </ul>
-          <img src="./Singing Contract.gif" className="w-96 h-96" />
+          <img src="Singing Contract.gif" className="w-96 h-96" />
         </div>
         <div className=" md:ml-10">
           <div className="p-10 shadow-2xl rounded-3xl">
@@ -197,4 +197,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

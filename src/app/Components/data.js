@@ -7,7 +7,8 @@ export const carouselData = [
       second: "Finland",
     },
     button: "Know More",
-    img: "../northern2.jpg",
+    href: "https://www.visitfinland.com/",
+    img: "northern2.jpg",
     shape: "",
     color: { bg: "#3d7376", textcolor: "#a3cbd3" },
   },
@@ -19,8 +20,9 @@ export const carouselData = [
         "FINCHAM India acts as a organization for the business community of Finland in ",
       second: "India",
     },
+    href: "join-fincham.html",
     button: "Join Fincham",
-    img: "../img2.jpg",
+    img: "img2.jpg",
     shape: "",
     color: { bg: "#a89f3f", textcolor: "#e4dfc0" },
   },
@@ -32,8 +34,9 @@ export const carouselData = [
         "Enabling Finish companies to drive sustainable long term business in ",
       second: "India",
     },
+    href: "about-us.html",
     button: "Discover More",
-    img: "../img3.jpg",
+    img: "img3.jpg",
     shape: "",
     color: { bg: "#0a112c", textcolor: "#8fa7c6" },
   },
@@ -44,201 +47,234 @@ export const members = [
     id: 1,
     name: "AHLSTROM-MUNKSJÖ",
     img: "../ahlsrom_log.png",
+    link: "https://www.ahlstrom.com/",
   },
   {
     id: 2,
     name: "ALGOL CHEMICALS INDIA PRIVATE LIMITED",
     img: "../logo_ac.svg",
+    link: "https://www.algolchemicals.com/",
   },
   {
     id: 3,
     name: "ANDRITZ TECHNOLOGIES PVT. LTD",
     img: "../andritz-logo-icon.webp",
+    link: "https://www.andritz.com/",
   },
   {
     id: 4,
     name: "CARGOTEC",
     img: "../cargotec-logo.svg",
+    link: "https://www.cargotec.com/",
   },
   {
     id: 5,
     name: "COREDO",
     img: "../Coredo.png",
+    link: "https://coredogroup.com/",
   },
   {
     id: 6,
     name: "DENTAL MAMMOTH",
     img: "../dental_mammoth.png",
+    link: "https://dentalmammoth.com/en-us/",
   },
   {
     id: 7,
     name: "E-AGE ELECTRONICS PRIVATE LIMITED",
     img: "../eAge.png",
+    link: "https://eageelectronics.com/",
   },
   {
     id: 8,
     name: "ELEMATIC INDIA PRIVATE LIMITED",
     img: "../elematic.svg",
+    link: "https://www.elematic.com/",
   },
   {
     id: 9,
     name: "ENSTO",
     img: "../ensto.png",
+    link: "https://www.ensto.com/en-in/",
   },
   {
     id: 10,
     name: "FINNAIR",
     img: "../finnair.png",
+    link: "https://www.finnair.com/en",
   },
   {
     id: 11,
     name: "ORION PHARMA INDIA PRIVATE LIMITED",
     img: "../Orion_Pharma.png",
+    link: "https://www.orionpharma.in/",
   },
   {
     id: 12,
     name: "FORTUM INDIA PRIVATE LIMITED",
     img: "../fortum.svg",
+    link: "https://www.fortum.in/",
   },
   {
     id: 13,
     name: "HUHTAMAKI",
     img: "../Huhtamaki.svg",
+    link: "https://www.huhtamaki.com/",
   },
   {
     id: 14,
     name: "INCAP",
     img: "../incap.png",
+    link: "https://incapcorp.com/",
   },
   {
     id: 15,
     name: "KINECO EXEL COMPOSITED PVT. LTD.",
     img: "../kineco.png",
+    link: "https://www.kinecoexelindia.com/",
   },
   {
     id: 16,
     name: "KONE ELEVATOR INDIA PRIVATE LIMITED",
     img: "../KONE.svg",
+    link: "https://www.kone.in/",
   },
   {
     id: 17,
     name: "KONECRANES",
     img: "../Konecranes.png",
+    link: "https://www.konecranes.com/",
   },
   {
     id: 18,
     name: "KEMPPI INDIA PRIVATE LIMITED",
     img: "../KEMPPI.png",
+    link: "https://www.kemppi.com/",
   },
   {
     id: 19,
     name: "METSO INDIA PRIVATE LIMITED",
     img: "../Metso2.png",
+    link: "https://www.metso.com/",
   },
   {
     id: 20,
     name: "LINDSTROM SERVICES INDIA PRIVATE LIMITED",
     img: "../lindstrom.webp",
+    link: "https://lindstromgroup.com/",
   },
   {
     id: 21,
     name: "MIRKA INDIA PRIVATE LIMITED",
     img: "../mirka.svg",
+    link: "https://www.mirka.com/",
   },
   {
     id: 22,
     name: "NOKIA SOLUTIONS AND NETWORKS INDIA PRIVATE LIMITED",
     img: "../nokia.svg",
+    link: "https://www.nokia.com/",
   },
   {
     id: 23,
     name: "NORMET",
     img: "../normet.png",
+    link: "https://www.normet.com/",
   },
   {
     id: 24,
     name: "Skandinaviska Enskilda Banken",
     img: "../seb.svg",
+    link: "https://sebgroup.com/",
   },
   {
     id: 25,
     name: "TECNOTREE",
     img: "../Tecnotree.png",
+    link: "https://www.tecnotree.com/",
   },
   {
     id: 26,
     name: "TIETO INDIA PRIVATE LIMITED",
     img: "../tietoevry.png",
+    link: "https://www.tietoevry.com/",
   },
   {
     id: 27,
     name: "VALMET CHENNAI PRIVATE LIMITED",
     img: "../valmet.svg",
+    link: "https://www.valmet.com/",
   },
   {
     id: 28,
     name: "WARTSILA INDIA PRIVATE LIMITED",
     img: "../WARTSILA.webp",
+    link: "https://www.wartsila.com/",
   },
 ];
 
 export const events = [
   {
     id: 1,
-    img: "./event1.png",
+    img: "../event1.jpg",
     title: "Highlights Of India’s New Foreign Trade Policy",
-    desc: "Date : 25th April 2023Time : 11:00 – 12:15 Hrs (IST)Mode : Virtual",
+    desc: `Date : 25th April 2023 
+Time : 11:00 – 12:15 Hrs (IST)
+Mode : Virtual`,
     date: "April 20, 2023",
     bg: "#8c9d63",
   },
   {
     id: 2,
-    img: "./event2.jpg",
+    img: "../event2.png",
     title: "Decoding Union Budget 2023-24 In Collaboration With KPMG In India",
-    desc: "Date: 06th February 2023Time: 11:30-13:30 HRS (IST)Mode: Hybrid",
+    desc: `Date: 06th February 2023
+Time: 11:30-13:30 HRS (IST)
+Mode: Hybrid`,
     date: "January 24, 2023",
     bg: "#BECFC6",
   },
   {
     id: 3,
-    img: "./event3.png",
+    img: "../event3.png",
     title:
       "Finland Chamber Of Commerce In India Cordially Invites You To Join Us For The FINCHAM ANNUAL GALA 2022.",
-    desc: "Date: 15th December 2022Time: 06:30 PM (IST)Venue: The Imperial, New Delhi",
+    desc: `Date: 15th December 2022
+Time: 06:30 PM (IST)
+Venue: The Imperial, New Delhi`,
     date: "December 12, 2022",
     bg: "#eabdb9",
   },
   {
     id: 4,
-    img: "./event1.png",
+    img: "../event4.png",
     title: "XIX Members Meeting Of Finland Chamber Of Commerce In India",
-    desc: "Date: 02nd December 2022Time: 14:30 – 16:30 Hrs (IST)Venue: Embassy of Finland, New Delhi.",
+    desc: `Date: 02nd December 2022
+Time: 14:30 – 16:30 Hrs (IST)
+Venue: Embassy of Finland, New Delhi.`,
     date: "December 10, 2022",
     bg: "#c1c34f",
   },
   {
     id: 5,
-    img: "./event2.jpg",
+    img: "../event5.png",
     title: "Knowledge Update Session On Recent Developments In Taxation Laws",
-    desc: "Date: 14th September 2022Time: 15:00 – 16:00 Hrs (IST)Virtual Event",
+    desc: `Date: 14th September 2022
+Time: 15:00 – 16:00 Hrs (IST)
+Mode : Virtual Event`,
     date: "September 14, 2022",
     bg: "#8c9d63",
   },
   {
     id: 6,
-    img: "./event1.png",
-    title: "Highlights Of India’s New Foreign Trade Policy",
-    desc: "Date : 25th April 2023Time : 11:00 – 12:15 Hrs (IST)Mode : Virtual",
-    date: "July 31, 2024",
+    img: "../event6.png",
+    title:
+      "XVIII Members Meeting Of Finland Chamber Of Commerce In India And Lunch",
+    desc: `Date : 25th April 2023
+Time : 11:00 – 12:15 Hrs (IST)
+Mode : Virtual`,
+    date: "July 6, 2022",
     bg: "#8c9d63",
-  },
-  {
-    id: 7,
-    img: "./event2.jpg",
-    title: "Decoding Union Budget 2023-24 In Collaboration With KPMG In India",
-    desc: "Date: 06th February 2023Time: 11:30-13:30 HRS (IST)Mode: Hybrid",
-    date: "August 1, 2025",
-    bg: "#BECFC6",
   },
 ];
 
@@ -247,7 +283,7 @@ export const board = [
     id: 1,
     name: "Mr. Sanjay Malik",
     position: "CHAIRPERSON, FINCHAM INDIA",
-    img: "../board1.png",
+    img: "board1.png",
     desc: {
       about:
         "Sanjay Malik is the head of Nokia’s India Market, responsible for Nokia’s business in India including Mobile Networks, Fixed Networks, Nokia Software, IP & Optical Networks and Services. He also heads the Country Management Team that is responsible for business operations in India such as manufacturing, R&D and global delivery located in India. With over 30 years of global experience in Telecom/IT industry, Sanjay has a proven track record of leading growth, turnarounds, customer management, value selling, large multi-cultural organization development and delivering performance. Prior to joining Nokia, Sanjay has held various positions in organisations such as HP , Cap Gemini, Unisys.",
@@ -258,7 +294,7 @@ export const board = [
     id: 2,
     name: "Mr. Venkatesh R.",
     position: "VICE CHAIRPERSON, FINCHAM INDIA",
-    img: "../board2.jpeg",
+    img: "board2.jpeg",
     desc: {
       about:
         "Venkatesh R is Managing Director & Director Energy Business, Wärtsilä in India. Venkatesh has 30 years of experience in the Marine and Energy sectors. During his career in Wärtsilä, he has worked in India, Singapore and Finland managing strategic roles having value adding experiences in a variety of functions like Business Strategy, Project Management, Operational Development, QEHS etc. In his latest role, he has been Area Director for Middle East Asia based in Singapore. Within his role in Wärtsilä India, Venkatesh is responsible to enhance India’s market leadership with innovative life cycle solutions and accelerating the Renewables and Decarbonisation journey, propelling the business to greater heights. Venkatesh believes a healthy work-life balance is a pre-requisite to good health and also best possible way to contribute whole-heartedly to the work one undertakes. He encourages his fellow colleagues to spread this within their teams as also practice this themselves.",
@@ -269,7 +305,7 @@ export const board = [
     id: 3,
     name: "Mr. Sanjay Aggarwal",
     position: "PRESIDENT, FORTUM INDIA",
-    img: "../board3.png",
+    img: "board3.png",
     desc: {
       about:
         "Mr. Sanjay Aggarwal is the President, Fortum India and Global Head for Solar at Fortum. Before joining Fortum, Sanjay was Chief of Projects, TATA Power, and led Project Development & Project Management activities in Coal, Waste Gas, Hydro projects – covering power generation, combined heat and power solutions, and coal mining – in North and East India. With 32 years in the Energy Sector, Sanjay has a wealth of multifaceted, multi-market experience, having been a business leader in Indian and global energy companies. Sanjay has presented papers across business imperatives in various Indian and global energy forums.",
@@ -280,7 +316,7 @@ export const board = [
     id: 4,
     name: "Mr. Amit Gossain",
     position: "MANAGING DIRECTOR, KONE INDIA",
-    img: "../board4.png",
+    img: "board4.png",
     desc: {
       about:
         "Amit Gossain is the Managing Director of KONE Elevator India. Prior to KONE, Amit was the Executive Vice President for JCB India Limited. Under his leadership, brand JCB was awarded amongst India’s most impactful brands twice. Amit has worked both in India and overseas. After working with L&T Earth Moving and Construction Equipment division in India, he worked for close to 10 years in Sydney, Australia with CNH Global, one of the world leaders in Agricultural and Construction equipment. He worked in various leadership roles, with the final assignment as Head of Sales and Marketing – Construction Equipment Group for Asia Pacific which included Australia, New Zealand, Oceania and South East Asia, before moving back to India to join JCB in 2005.",
@@ -291,7 +327,7 @@ export const board = [
     id: 5,
     name: "H.E. Ritva Koukku-Ronde",
     position: "AMBASSADOR OF FINLAND IN INDIA | HONORARY BOARD MEMBER",
-    img: "../board5.png",
+    img: "board5.png",
     desc: {
       about:
         "Ritva Koukku-Ronde, the current Ambassador of Finland to India, is a career diplomat who has served in the Ministry for Foreign Affairs of Finland for over three decades. Before India, she has served as the Finnish Ambassador to Germany and to the United States, and as the Under Secretary of State for Development Cooperation. During her career, she has worked in several posts at the Ministry and the Embassies in the Hague, Bonn and Nairobi. Koukku-Ronde has also served as a representative in organizations such as Finnfund (Finnish Fund for Industrial Cooperation), the African Development Bank, Asian Development Bank, Inter-American Development Bank and the Finnish Water Forum. Prior to her diplomatic career, she served as a freelance journalist.",
@@ -302,7 +338,7 @@ export const board = [
     id: 6,
     name: "Dr. Jukka Holappa",
     position: "COMMERCIAL COUNSELOR (HONORARY BOARD MEMBER)",
-    img: "../board6.png",
+    img: "board6.png",
     desc: {
       about:
         "Dr Jukka Holappa is a pharma professional with R&D, regulatory, business development, in- and out-licensing and retail experience. As an innovative, experienced and brutally honest dealmaker, Dr Holappa knows how to juggle between parties in order to make business deals happen in the healthcare space. He has been buying and selling pharmaceuticals, medical devices, food supplements, technologies and all kinds of pharmaceutical services globally. After an extensive career in the healthcare industry, Dr Holappa now heads Business Finland in India. He is responsible of Export Finland, Invest in Finland, Visit Finland and Innovation funding activities in India. Dr Holappa is a market-oriented and market-driven “outside-the-box” thinker, with b-to-b and b-to-c marketing and sales experience. He has excellent networks to decision makers especially in Europe and Asia.",
@@ -313,7 +349,7 @@ export const board = [
     id: 7,
     name: "Ms. Swati Grover",
     position: "ADMINISTRATOR",
-    img: "../board7.png",
+    img: "board7.png",
     desc: {
       about:
         "A legal professional with over a decade of experience in civil and commercial laws, corporate compliance and advisory services, Swati moved to the social development sphere in 2014, pursuant to completing a post graduate program in Urban Environmental Management and Law. Swati has worked as a Project-cum-Partnership Coordinator for 3 years with CURE India, a not-for-profit development organization, managing an implementing projects towards improving access to basic water and sanitation services to the economically weaker urban population through community mobilization, capacity building, participatory governance and implementing sustainable slum upgrading and behavioral change solutions. She has also worked as a Consultant (Collaborative Advocacy) with Sphere India, a national coalition of Humanitarian agencies in India, and was involved in developing appropriate policy initiatives required to be undertaken at both government and non-government level for mainstreaming Disaster Risk Reduction and Climate Change Adaptation.",
@@ -325,7 +361,7 @@ export const board = [
 export const news = [
   {
     id: 1,
-    img: "../news1.jpeg",
+    img: "news1.jpeg",
     title: "Chairperson, Finland Chamber Of Commerce In India",
     date: "April 3, 2023",
     desc: `Dear Colleagues,
@@ -354,7 +390,7 @@ Sr VP and Head of India Market, Nokia`,
   },
   {
     id: 2,
-    img: "../news2.jpeg",
+    img: "news2.jpeg",
     title: "Sanjay Aggarwal, President, Fortum India Pvt. Ltd.",
     date: "April 1, 2023",
     desc: `Dear Industry Colleagues,
@@ -385,7 +421,7 @@ President, Fortum India Pvt. Ltd.`,
   },
   {
     id: 3,
-    img: "../news3.jpg",
+    img: "news3.jpg",
     title:
       "CII And Finland Chamber Of Commerce In India (FINCHAM India) Enter Into An MoU For Sustainability And Smart Cities Cooperation",
     date: "April 25, 2022",
@@ -403,7 +439,7 @@ The MoU was signed in the presence of the Hon’ble Minister of Economic Affairs
   },
   {
     id: 4,
-    img: "../news2.jpeg",
+    img: "news2.jpeg",
     title: "The Journey Continues…",
     date: "April 1, 2022",
     desc: `Dear Industry Colleagues,
@@ -428,7 +464,7 @@ President, Fortum India Pvt. Ltd.`,
   },
   {
     id: 5,
-    img: "../news4.jpg",
+    img: "news4.jpg",
     title: "Forward To A Carbon Neutral Future",
     date: "August 9, 2021",
     desc: `Valmet’s climate program includes ambitious CO₂ emission reduction targets and concrete actions across the value chain.   

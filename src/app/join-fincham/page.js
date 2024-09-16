@@ -5,19 +5,19 @@ function Page() {
   const categories = [
     {
       id: 1,
-      img: "../team.png",
+      img: "team.png",
       title: "1. Corporate Member:",
       desc: "To become a member in this category, a corporate entity i.e. company, firm or organisation should be part of the business community of Finland in India. The corporate entity could be a Finnish entity doing business in India directly, or through a legal corporate entity in the form of a subsidiary, joint venture or branch office/liaison office of a Finnish entity in India. A Corporate Member shall have full voting rights at General Body Meetings and shall be entitled to have a nominee elected to the Board of Directors.",
     },
     {
       id: 3,
-      img: "../medal.svg",
+      img: "medal.svg",
       title: "2. Honorary member:",
       desc: "Upon nomination, persons of distinction and/or persons who are eminently qualified to support and contribute to the objects of FINCHAM India, may be elected as Honorary Members. Honorary Members shall enjoy all the rights and privileges of Corporate Members, except that an Honorary Members shall not have the right to vote in General Body Meetings. Honorary Members shall be exempted from payment of all dues and fees.",
     },
     {
       id: 1,
-      img: "../affiliate.png",
+      img: "affiliate.png",
       title: "3. Affiliate Member:",
       desc: `a) Associate Member: To become a member in this category, a corporate entity i.e. company, firm or organization must be registered under India laws and should be doing business in Finland directly, or through a legal corporate entity in the form of a subsidiary or joint venture or branch office/liaison in Finland, for a minimum period of 3 years. An Associate Member shall enjoy all the rights and privileges of Corporate Members, except that it shall not have the right to vote in General Body Meetings and not be entitled to have its nominee elected to the Board of Directors of FINCHAM India.
              
@@ -39,10 +39,14 @@ b) Overseas Member: An Indian corporate entity which is a subsidiary or joint ve
             Finland in India where in stakeholders are inducted subject to
             satisfaction of the qualifications to become members of the chamber.
           </p>
-          <img src="../join-us.svg" className="w-[500px]" />
+          <img src="join-us.svg" className="w-[500px]" />
         </div>
         <div className="flex-col md:w-1/2">
-          <a href="https://www.finchamindia.com/wp-content/uploads/2024/04/AFFILIATION-FORM_FINCHAM-India.pdf">
+          <a
+            href="AFFILIATION-FORM_FINCHAM-India.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button class="w-full p-8 mb-10 rounded-xl text-red relative overflow-hidden border border-blue-800 bg-white text-blue-800 shadow-xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-blue-800 before:transition-all before:duration-500 hover:text-white hover:shadow-blue-500 hover:before:left-0 hover:before:w-full">
               <span class="relative z-10">
                 Download FINCHAM Membership Form – Finnish companies in India
@@ -50,7 +54,11 @@ b) Overseas Member: An Indian corporate entity which is a subsidiary or joint ve
             </button>
           </a>
 
-          <a href="https://www.finchamindia.com/wp-content/uploads/2024/04/Affiliate-Member-Application-Form_FINCHAM_Revised.pdf">
+          <a
+            href="Affiliate-Member-Application-Form_FINCHAM_Revised.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button class="w-full p-8  rounded-xl text-red  relative overflow-hidden border border-yellow-500 bg-white text-yellow-500 shadow-xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-yellow-500 before:transition-all before:duration-500 hover:text-white hover:shadow-yellow-400 hover:before:left-0 hover:before:w-full">
               <span class="relative z-10">
                 Download FINCHAM Affiliate Membership Form
@@ -85,61 +93,7 @@ b) Overseas Member: An Indian corporate entity which is a subsidiary or joint ve
               desc={e.desc}
             />
           ))}
-          {/*           
-          <Card onClick={() => setIsOpen(true)} img="" />
-          <Card onClick={() => setIsOpen(true)} /> */}
         </div>
-        {/* <div>
-          <p className="text-2xl font-medium">1. Corporate Member:</p>
-          <p className="mt-4">
-            "To become a member in this category, a corporate entity i.e.
-            company, firm or organisation should be part of the business
-            community of Finland in India. The corporate entity could be a
-            Finnish entity doing business in India directly, or through a legal
-            corporate entity in the form of a subsidiary, joint venture or
-            branch office/liaison office of a Finnish entity in India. A
-            Corporate Member shall have full voting rights at General Body
-            Meetings and shall be entitled to have a nominee elected to the
-            Board of Directors."
-          </p>
-        </div>
-        <div>
-          <p className="text-2xl font-medium">2. Honorary member:</p>
-          <p className="mt-4">
-            Upon nomination, persons of distinction and/or persons who are
-            eminently qualified to support and contribute to the objects of
-            FINCHAM India, may be elected as Honorary Members. Honorary Members
-            shall enjoy all the rights and privileges of Corporate Members,
-            except that an Honorary Members shall not have the right to vote in
-            General Body Meetings. Honorary Members shall be exempted from
-            payment of all dues and fees.
-          </p>
-        </div>
-        <div>
-          <p className="text-2xl font-medium">3. Affiliate Member:</p>
-          <p className="mt-4">
-            a) Associate Member: To become a member in this category, a
-            corporate entity i.e. company, firm or organization must be
-            registered under India laws and should be doing business in Finland
-            directly, or through a legal corporate entity in the form of a
-            subsidiary or joint venture or branch office/liaison in Finland, for
-            a minimum period of 3 years. An Associate Member shall enjoy all the
-            rights and privileges of Corporate Members, except that it shall not
-            have the right to vote in General Body Meetings and not be entitled
-            to have its nominee elected to the Board of Directors of FINCHAM
-            India.
-          </p>
-          <p className="mt-4">
-            b) Overseas Member: An Indian corporate entity which is a subsidiary
-            or joint venture or branch office/liaison office of a non-Finnish
-            European entity, having significant business interest in Finland,
-            may apply to become a member under this category. An Overseas Member
-            shall enjoy all the rights and privileges of Corporate Members,
-            except that it shall not have the right to vote in General Body
-            Meetings and not be entitled to have its nominee elected to the
-            Board of Directors of FINCHAM India.
-          </p>
-        </div>  */}
       </div>
       <div className="py-20 px-8 md:px-20 flex flex-col gap-6 bg-gray-100 bg-gradient-to-r from-[#667db6] via-[#0082c8] to-[#667db6] text-white">
         <p className="text-3xl md:text-4xl flex justify-center items-center font-bold mb-4 md:mb-10">
@@ -177,7 +131,6 @@ const Card = ({ title, desc, img }) => {
 
   return (
     <div className="relative w-96 h-full bg-gradient-to-t from-[#081e69] to-black rounded-3xl p-10 flex flex-col gap-4 transform hover:scale-105 transition-transform ease-in-out duration-300 ">
-      {/* <img src={img} className=" absolute -top-8 right-0 w-16 h-16" /> */}
       <div className="flex flex-col gap-4">
         <p className="text-white font-medium text-2xl">{title}</p>
         <p className="text-sm text-white whitespace-pre-wrap text-justify">
@@ -187,15 +140,6 @@ const Card = ({ title, desc, img }) => {
 
       <span>
         {isDescLong && (
-          // <button
-          //   class="group relative min-h-[40px] w-32 rounded-xl overflow-hidden border border-[#081E69] bg-white text-black shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-0 before:w-1/4 before:bg-[#081E69] before:duration-500 after:absolute after:bottom-0 after:right-0 after:h-0 after:w-1/4 after:bg-[#081E69] after:duration-500 hover:text-white hover:before:h-full hover:after:h-full"
-          //   onClick={toggleReadMore}
-          // >
-          //   <span class="top-0 flex h-full w-full items-center justify-center before:absolute before:bottom-0 before:left-1/4 before:z-0 before:h-0 before:w-1/4 before:bg-[#081E69] before:duration-500 after:absolute after:right-1/4 after:top-0 after:z-0 after:h-0 after:w-1/4 after:bg-[#081E69] after:duration-500 hover:text-white group-hover:before:h-full group-hover:after:h-full"></span>
-          //   <span class="absolute bottom-0 left-0 right-0 top-0 z-10 flex h-full w-full items-center justify-center group-hover:text-white">
-          //     {isExpanded ? "Read Less" : "Read More"}
-          //   </span>
-          // </button>
           <button
             class="relative h-10 w-32 rounded-xl  overflow-hidden border bg-white border-blue-600 text-[#081E69] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-[#081E69] before:duration-300 before:ease-out hover:text-white hover:shadow-blue-600 hover:before:h-40 hover:before:w-40 hover:before:opacity-80"
             onClick={toggleReadMore}
@@ -206,9 +150,6 @@ const Card = ({ title, desc, img }) => {
           </button>
         )}
       </span>
-      {/* <button class="relative h-10 w-32 rounded-xl  overflow-hidden border bg-white border-blue-600 text-[#081E69] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-[#081E69] before:duration-300 before:ease-out hover:text-white hover:shadow-blue-600 hover:before:h-40 hover:before:w-40 hover:before:opacity-80">
-        <span class="relative z-10">Center Hover</span>
-      </button> */}
     </div>
   );
 };

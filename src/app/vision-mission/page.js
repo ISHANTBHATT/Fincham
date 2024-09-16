@@ -39,7 +39,7 @@ function Page() {
         </div>
         <div className=" rotate-12 mix-blend-color-dodge animate-pulse duration-75 z-1 w-[200px] xl:w-[260px]">
           <img
-            src="/bulb.png"
+            src="bulb.png"
             width={260}
             height={200}
             className="w-full h-full"

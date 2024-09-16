@@ -11,7 +11,7 @@ function Page() {
           that the two countries experience. the interest of the members is
           envisaged in the thriving of international business routes.
         </p>
-        <img src="../member.png" className="w-[450px] h-full" />
+        <img src="member.png" className="w-[450px] h-full" />
       </div>
       <div className="flex flex-col md:w-1/2 gap-10">
         <a href="../members">

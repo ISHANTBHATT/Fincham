@@ -21,10 +21,6 @@ function Page() {
       <div className="w-full h-full flex flex-wrap justify-center">
         {pastEvents.map((event, index) => (
           <div key={event.id} className="p-10">
-            {/* <h1 className="bg-[#1a1f8b] rounded-full h-8 w-8 text-white flex items-center justify-center absolute top-12">
-              {event.id}
-            </h1> */}
-
             <div
               className="relative h-full w-72 md:w-[400px] rounded-tl-[200px] pl-10 pr-2 pt-14"
               style={{ backgroundColor: event.bg }}
@@ -32,7 +28,7 @@ function Page() {
               <BsFillPinAngleFill className="text-red-600 absolute -top-2 -right-2 h-8 w-8 drop-shadow-lg" />
               <div className="flex items-center ml-12 w-40 h-40 md:w-60 md:h-60">
                 <img
-                  src={`../${event.img}`}
+                  src={`${event.img}`}
                   className="rounded-xl lg:rounded-3xl border-2 border-dashed border-black mb-6 h-full w-full transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[5px_5px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
                 />
               </div>
@@ -47,7 +43,7 @@ function Page() {
                     {event.date}
                   </p>
                 </div>
-                <p className="font-normal text-xs md:text-sm py-4">
+                <p className="font-normal text-xs whitespace-pre-wrap md:text-sm py-4">
                   {event.desc}
                 </p>
               </div>

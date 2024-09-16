@@ -14,6 +14,10 @@ function Page() {
     const url = title.replace(/\s+/g, "-").toLowerCase();
     router.push(`../${url}/?id=${encodeURIComponent(id)}`);
   };
+  // const handleClick = (title, id) => {
+  //   const url = title.replace(/\s+/g, "-").toLowerCase();
+  //   router.push(`${url}.html`);
+  // };
   const sortedNews = news
     .slice()
     .sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -42,10 +46,6 @@ function Page() {
               </a>
             </div>
             <div className="bg-white p-4 rounded-3xl pt-52 sm:pt-64 md:pt-60">
-              {/* <div className="absoulte bg-red-500 px-2 rounded-s-xl w-14">
-                <p className="text-sm">News</p>
-              </div> */}
-
               <div className="absolute top-8 right-0 w-16 md:w-24 h-8 bg-blue-800 rounded-l-lg pl-2 pt-1">
                 <div className="flex gap-1">
                   <span className="text-white text-sm">News</span>
@@ -58,14 +58,11 @@ function Page() {
               >
                 <a>{e.title}</a>
               </h3>
-              {/* <p className="text-gray-600 leading-6 mb-6"> */}
               <div className="py-4">
                 <p className=" whitespace-pre-wrap">
                   {truncateText(e.desc, 200)}
                 </p>
               </div>
-
-              {/* </p> */}
               <a
                 onClick={() => handleClick(e.title, e.id)}
                 className="float-right py-2 px-4 text-xs bg-blue-800 text-white rounded-full shadow-lg hover:bg-blue-600 uppercase cursor-pointer"

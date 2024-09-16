@@ -7,7 +7,7 @@ function Page() {
     <div className="w-full h-full">
       <div
         className="relative flex items-center justify-center pt-28 pb-10 bg-center bg-cover"
-        style={{ backgroundImage: `url(./finland.jpg)` }}
+        style={{ backgroundImage: `url(finland.jpg)` }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <h1 className="relative text-3xl font-bold text-white">About Us</h1>
@@ -43,7 +43,7 @@ function Page() {
           </div>
         </div>
         <div className="w-1/2 lg:w-1/3">
-          <img src="./growth.png" className="" />
+          <img src="growth.png" className="" />
         </div>
       </div>
     </div>
