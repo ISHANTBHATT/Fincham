@@ -10,7 +10,7 @@ function Partner() {
           Partner with FINCHAM
         </h1>
         <img src="deal.svg" className="h-80 w-80" />
-        <Link href="contact-us.html" className="w-full lg:w-1/5">
+        <Link href="contact-us" className="w-full lg:w-1/5">
           <button
             type="button"
             className="bg-[#01306b] hover:bg-[#feb902] w-full text-white px-4 py-3  rounded-full hover:shadow-lg transition-all ease-in-out duration-100"

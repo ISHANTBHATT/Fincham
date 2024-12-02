@@ -76,7 +76,7 @@ function AutoPlayMethods() {
           Members
         </h1>
         <button className="">
-          <a href="members.html" className="flex items-center gap-2">
+          <a href="members" className="flex items-center gap-2">
             {" "}
             See more
             <span>
