@@ -17,7 +17,7 @@ function EventsContainer() {
               Events
             </h1>
           </div>
-          <div className="flex gap-4 h-full w-full text-[#121929]">
+          {/* <div className="flex gap-4 h-full w-full text-[#121929]">
             <div className="w-full h-full">
               {sortedevents.map((event, index) => (
                 <div key={event.id}>
@@ -107,7 +107,7 @@ function EventsContainer() {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       ) : (
         <></>

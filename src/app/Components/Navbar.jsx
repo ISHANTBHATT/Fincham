@@ -43,11 +43,11 @@ const Events = [
 const Publications = [
   {
     name: "E-Book: Undaunting India: A Guide to Doing Business in India",
-    href: "https://finchamindia.com/wp-content/uploads/2024/02/Fincham-Ebook.pdf",
+    href: "Fincham-Ebook.pdf",
   },
   {
     name: "Fincham – Members’ Handbook",
-    href: "https://finchamindia.com/wp-content/uploads/2023/10/FINHCAM-Members-Handbook_Edition-01-2022.pdf",
+    href: "FINHCAM-Members-Handbook_Edition-01-2022.pdf",
   },
 ];
 const Links = [
